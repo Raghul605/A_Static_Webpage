@@ -1,0 +1,264 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: FV Almelo ,Sans Serif;
+    list-style-type: none;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+.header{
+	width:100%;
+	height:60px;
+	background-color:#171717;
+    display:block;
+    position:fixed;
+    top:0px;
+}
+
+.inner-header{
+	width:1150px;
+	height:100%;
+    margin: 0 auto;
+    display:block;
+}
+.topic{
+  float:left;
+  display:table;
+  height:100%;
+}
+.topic h1{
+  display:table-cell;
+  font-size:15px;
+  
+  font-weight:400px;
+  color:white;
+  vertical-align:middle;
+}
+.topic-2{
+	display:table;
+    float:right;
+    height:100%;
+    color:white;
+    border-style:none;   
+}
+.info{
+	display:table;
+	height:100%;
+}
+.info li{
+  float:left;
+  display:table;
+  height:100%;
+  
+ }
+.info li a  {
+  display:table-cell;
+  vertical-align:middle; 
+  padding:20px;
+  text-decoration:none;
+  color:white;
+}
+section{
+	display:flex;
+	width:100%;
+	min-height:100vh;
+	flex-flow:column wrap;
+	
+}
+secton:before{
+	content:attr(href);
+	border-style:none;
+}
+.home{
+	background-image:url("smoke.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+	justify-content:space-between;
+	margin-top:60px;
+}
+.detail{
+    line-height:3em;
+    margin-top:150px;
+    padding-left:70px;	
+}
+.detail > p{
+	background-color:#198bff;
+    text-align: center;
+    width: 140px;
+    font-weight:600;
+}
+.detail > p > span{
+	width:50px;
+}
+.about-me{
+	color:black;
+	background-color:white;
+	
+	
+}
+.about-me h2{
+	text-align:center;
+	padding:30px;
+	margin-top: 70px;
+}
+.inside-about{
+	width:100%;
+	height:530px;
+}
+.self{
+	float:left;
+	width:50%;
+}
+.lap{
+	float:right;
+	width:50%;
+	height:71%;
+}
+
+.our-services{
+	background-color:black;
+	color:white;
+}
+.our-services h3{
+	margin-top: 70px;
+	text-align:center;
+}
+.service{
+	width:80%;
+	margin:0 auto;
+	margin-top:50px;
+	padding-left:70px;
+	
+}
+.service ul > li > h4{
+	margin-top:5px;
+	text-align:center;
+}
+.service ul > li > p{
+	text-align:center;
+}
+.items{
+	background-color:#242323;
+	float:left;
+	width:30%;
+	height:200px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+.items:hover{
+	background-color:#198bff;
+}
+object{
+	width:70px;
+	margin-top:10px;
+	margin-left:120px;
+}
+.work{
+	background-color:white;
+	color:black;
+}
+.work h3{
+	text-align:center;
+	margin-top:20px;
+	margin-top: 70px;
+}
+.works{
+	height: 980px;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 50px;
+    padding-left: 175px;
+}
+.work-img{
+	margin-right: 30px;
+	margin-bottom: 40px;
+	float: left;
+	width: 40%;
+	height:450px;
+}
+.work > p{
+	background-color:#195fff;
+    text-align: center;
+    color:white;
+    width:100px;
+    margin:0 auto;
+    margin-right:630px;
+    padding:10px;
+}	
+.testimonial{
+	display:block;
+	background-color:white;
+}
+.testimonial h3{
+	text-align:center;
+	color:black;
+	padding-top:70px;
+}
+.test{
+	margin:0 auto;
+	padding-left:200px;
+	margin-top:70px;
+}
+.tests{
+	float:left;
+	background-color:#198bff;
+	height:300px;
+	width:40%;
+	margin-right:20px;	
+	color:white;
+}
+.tests p{
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:50px;
+	
+}
+.contact{
+	
+	background-color:#333030;
+	color:white;
+}
+
+.contacts{
+	width:80%;
+	height:400px;
+	margin:0 auto;
+}
+.address{
+	width:40%;
+	height:100%;
+	float:left;
+}
+.address h3{
+	margin-top:70px;
+}
+.address-info li > h4{
+	color:#198bff;
+	padding-left:60px;
+	padding-top:15px;
+	
+}
+.address-info li > p{
+	padding-left:60px;
+}
+address{
+	padding-left:60px;
+}
+.form{
+	width:60%;
+	height:100%;
+	float:left;
+	margin-top:70px;
+}
+.svg{
+	float:left;
+	width:30px;
+	height:30px;
+	fill:white;
+	margin-top:10px;
+	margin-left:0px;
+}
