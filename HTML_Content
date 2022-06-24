@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolia</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="page.css">
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="inner-header">
+				<div class="topic">
+					<h1>PORTFOLIA</h1>
+				</div>
+				<div class="topic-2">
+					<ul class="info">
+						<li><a href="#home1">Home</a></li>
+						<li><a href="#About1">About</a></li>
+						<li><a href="#Service1">Service</a></li>
+						<li><a href="#Work1">Work</a></li>
+						<li><a href="#Testimonial1">Testimonial</a></li>
+						<li><a href="#Contact1">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="home1" class="home">
+		<div class="detail">
+			<h2 style="font-weight: 200;">Hello, I'm</h2>
+			<h1 style="font-size: 50px;">Raghul.</h1>
+			<h3 style="font-weight: 200;">I'm a Web Developer.</h3>
+			<p>
+				<span>ABOUT ME</span>
+			</p>
+		</div>
+	</section>
+	<section id="About1" class="about-me">
+		<h2>About Me</h2>
+		<div class="inside-about">
+			<div class="self">
+				<p >
+					<b style="margin-left:100px;">I'm a Web Developer.</b>
+				</p>
+				<p style="margin-left:100px;margin-top:18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p><br>
+			    <p style="margin-left:100px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+			<div class="lap">
+				<img src="work-lap.jpg" alt="laptop" style="width: 70%; height: 70%;">
+			</div>
+		</div>
+	</section>
+	<section id="Service1" class="our-services">
+		<h3>Our Services</h3>
+		<div class="service">
+			<ul>
+				<li class="items"><object type="image/svg+xml"
+						data="svg files/web design.svg">
+						<!-- Your fall back here -->
+						<img src="web design.svg" />
+					</object>
+					<h4>WEB DESIGN</h4> <p>Web design encompasses many different
+						skills and disciplines in the production and maintenance of
+						websites.</p></li>
+				<li class="items"><object type="image/svg+xml"
+						data="svg files/web-development.svg">
+						<!-- Your fall back here -->
+						<img src="web-development.svg" />
+					</object>
+					<h4>WEB DEVELOPMENT</h4> <p>Web development is the work
+						involved in developing a Web site for the Internet or an intranet
+						.</p></li>
+				<li class="items"><object type="image/svg+xml"
+						data="svg files/android.svg">
+						<!-- Your fall back here -->
+						<img src="android.svg" />
+					</object>
+					<h4>ANDROID APP</h4> <p>A mobile application is a software
+						application designed to run on a mobile device</p></li>
+				<li class="items"><object type="image/svg+xml"
+						data="svg files/camera.svg">
+						<!-- Your fall back here -->
+						<img src="camera.svg" />
+					</object>
+					<h4>PHOTOGRAPHY</h4> <p>Photography is the art and practice of
+						creating durable images by recording light, either electronically
+						by means of an image sensor</p></li>
+				<li class="items"><object type="image/svg+xml"
+						data="svg files/copywriting.svg">
+						<!-- Your fall back here -->
+						<img src="copywriting.svg" />
+					</object>
+					<h4>CONTENT WRITING</h4> <p> web content writer is a person who
+						specializes in providing relevant content for websites.</p></li>
+				<li class="items"><object type="image/svg+xml"
+						data="svg files/multimedia.svg">
+						<!-- Your fall back here -->
+						<img src="multimedia.svg" />
+					</object>
+					<h4>VIDEO EDITING</h4> <p>Video editing is the manipulation and
+						arrangement of video shots.</p></li>
+			</ul>
+		</div>
+	</section>
+	<section id="Work1"class="work">
+		<h3>Our Latest work</h3>
+		<div class="works">
+			<ul>
+				<li class="work-img"><img src="first-image.jpg" alt="table"
+					style="width: 100%; height: 100%;"></li>
+				<li class="work-img"><img src="red-bottle.jpg" alt="laptop"
+					style="width: 100%; height: 100%;"></li>
+				<li class="work-img"><img src="spoon.jpeg" alt="laptop"
+					style="width: 100%; height: 100%;"></li>
+				<li class="work-img"><img src="car.jpg" alt="laptop"
+					style="width: 100%; height: 100%;"></li>
+			</ul>
+		</div>
+		<p>view more</p>
+	</section>
+	<section id="Testimonial1" class="testimonial">
+		<h3>Testimonial</h3>
+		<div class="test">
+			<ul>
+				<li class="tests">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<h4 style="text-align:end;margin-top:45px;margin-right:20px;">SOMEONE FAMOUS</h4>
+				<p style="margin-top: 0px;text-align: end;margin-right:20px;">creative designer</p>
+				</li>
+				
+				<li class="tests"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<h4 style="text-align:end;margin-top:45px;margin-right:20px;">SOMEONE FAMOUS</h4>
+				<p style="margin-top: 0px;text-align: end;margin-right:20px;">creative designer</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="Contact1" class="contact">
+		<h2 style="margin-top:70px;text-align:center;">Contact Us</h2>
+		<div class="contacts">
+			<div class="address">
+				<h3>Contact Info</h3>
+				<ul class="address-info">
+					<li><object type="image/svg+xml" data="svg files/home.svg"
+							class="svg">
+							<!-- Your fall back here -->
+							<img src="home.svg" />
+						</object>
+					
+						<h4>Address</h4>
+						<address>
+							471 sugar camp road,<br>owatana,minnesota<br>55085.
+						</address></li><br>
+					<li><object type="image/svg+xml" data="svg files/call.svg"
+							class="svg">
+							<!-- Your fall back here -->
+							<img src="call.svg" />
+						</object>
+					
+						<h4>Phone</h4>
+						<p>9944250397</p></li><br>
+					<li><object type="image/svg+xml" data="svg files/message.svg"
+							class="svg">
+							<!-- Your fall back here -->
+							<img src="message.svg" />
+						</object>
+					
+						<h4>Email</h4>
+						<p>raghulj.2001@gmail.com</p></li><br>
+				</ul>
+			</div>
+			<div class="form">
+                <h3>Message Me</h3>	<br>	
+                <form >
+                    <lable for="name"></lable>
+                    <input type="text" id="name" placeholder="Full name" style="color:#bdb2b2;padding-left: 10px;width:100%;height:30px;border-style: none;background-color:#282727;margin-bottom: 20px;"><br>
+                    <lable for="email"></lable>
+                    <input type="email" id="email" placeholder="Email" style="color:#bdb2b2;width:100%;padding-left: 10px;height:30px;border-style: none;background-color:#282727;margin-bottom: 20px;"><br>
+                    <lable for="message"></lable>
+                    <input type="text" id="message" placeholder="Message Me" style="color:#bdb2b2;width:100%;height:113px;padding-left: 10px;border-style: none;background-color:#282727;margin-bottom: 20px;"><br>
+                    <input type="submit" value="Send" style="background-color:#195fff;padding:10px;color:white;border-style: none;">
+                </form>	
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
